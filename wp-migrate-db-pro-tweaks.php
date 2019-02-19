@@ -39,9 +39,9 @@ Author URI: http://deliciousbrains.com
 	}
 
 	/**
-	 * Increase the number of records per request to 5,000
+	 * Increase the number of records per request to 10,000
 	 * Default is 100
 	 */
 	add_filter( 'wpmdb_rows_per_segment', function () {
-            return 5000;
+            return 10000;
         } );
